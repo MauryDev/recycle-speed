@@ -1,0 +1,40 @@
+body {
+    background-color: lightgreen;
+}
+#cadastro {
+    background-color: lightblue;
+    font-size: 15px;
+    padding: 3px 10px;
+    border: 2px solid lightblue;
+    position: relative;
+    left: -5px;
+}
+#sucess {
+    color: purple; 
+}
+#error {
+    color: red;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+span {
+    position: relative;
+    left: -5px;
+}
+input {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#name {
+    left: 5px;
+}
+#email,#senha {
+    left: 3px;
+}
