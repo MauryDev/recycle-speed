@@ -1,0 +1,37 @@
+.texto {
+    color: purple;
+    display: inline-block;
+    margin: 4px;
+}
+#sucess {
+    color: royalblue;
+    position: relative;
+    top: -20px;
+    left: 5px;
+}
+#login {
+    background-color: white;
+    position: relative;
+    font-size: 15px;
+    padding: 3px 10px;
+    border: 2px solid lightgreen;
+    cursor: pointer;
+    margin: 4px;
+}
+.center {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.center input {
+    background-color: white;
+    color: black;
+}
+#fundo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
