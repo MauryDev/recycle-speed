@@ -1,0 +1,56 @@
+#Welcome {
+    color:darkblue;
+    font-size: 18px;
+    position: relative;
+    margin: 0 auto;
+    width: 230px;
+}
+
+.button1 {
+    background-color: white;
+    border: none;
+    position: relative;
+    color: green;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 12px;
+    width: 100px;
+    cursor: pointer;
+    outline: none;
+}
+.button1:hover {
+    background-color: white;
+}
+
+.button1:active {
+    background-color: white;
+    box-shadow: 0 5px whitesmoke;
+    transform: translateY(2px);
+}
+.button2 {
+    background-color: black;
+    border: none;
+    position: relative;
+    align-items: center;
+    left: 30%;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+#centralizado {
+    display: flex;
+    justify-content: center;
+}
+#cadastro {
+    left: -8px;
+}
+#login {
+    left: -3px;
+}
